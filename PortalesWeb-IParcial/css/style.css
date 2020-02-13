@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+}
+
+header {
+  overflow: hidden;
+}
+
+header img {
+   height: 11em;
+   width: 13.5em;
+  float: left;
+  padding: 1em;
+}
+
+header h1 {
+  font-size: 3em;
+  padding-top: 0.5em;
+  vertical-align: center;
+}
+
+.bar {
+  background-color: rgb(78, 173, 248);
+  overflow: hidden;
+}
+
+.main-nav {
+  padding: 1.25em 0;
+}
+
+.main-nav a:hover {
+  background-color: rgb(202, 42, 29);
+}
+
+.main-nav a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 1.25em;
+  display: block;
+  transition: background-color 0.3s ease-in-out;
+}
+@media (min-width: 900px) {
+  .main-nav a {
+    display: inline;
+  }
+}
+
+img {
+  display: block;
+  padding-left: 1em;
+  padding-right: 1em;
+  max-width: 100%;
+  max-height: 12em;
+}
+
+@media (min-width: 900px) {
+  img {
+    max-width: 20em;
+    float: left;
+    margin: 0 1em 0 0;
+  }
+}
+
+.container {
+  max-width: 100%;
+  padding: 1em 1.5em 1em 1.5em;
+  text-align: justify;
+}
+
+footer{
+  margin-top: 2em;
+}
+footer p{
+  color: white;
+}
